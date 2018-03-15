@@ -50,7 +50,7 @@ var User = sequelize.define("User", {
     }
 
     User.associate = function (models) {
-        User.hasMany(models.Recipe)
+        User.hasMany(models.sendMessage)
     }
 
     return User

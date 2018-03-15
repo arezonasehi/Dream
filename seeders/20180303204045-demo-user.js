@@ -8,19 +8,13 @@ module.exports = {
 
       // Example:
       return queryInterface.bulkInsert('Users', [{
-        first_name: 'Natalie',
-        last_name: 'Ryder',
-        email: 'natalie@natalieryder.com',
-        password: 'abcdefg',
+        first_name: 'Amir',
+        last_name: 'Nasehi',
+        email: 'nasehi.amir@gmial.com',
+        password: '12345',
         permissionLevelId: 1
       },
-      {
-        first_name: 'Brian',
-        last_name: 'Lee',
-        email: 'brian@brianlee.com',
-        password: 'hijklmnop',
-        permissionLevelId: 2
-      },
+     
       {
         first_name: 'Sheila',
         last_name: 'Arezo',
@@ -33,7 +27,7 @@ module.exports = {
         last_name: 'Rose',
         email: 'katy@katyrose.com',
         password: 'wxyz',
-        permissionLevelId: 2
+        permissionLevelId: 3
       }], {});
     
   },
